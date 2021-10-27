@@ -3,6 +3,6 @@
   }
 
 .viewMore {
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
 }

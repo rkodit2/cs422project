@@ -6,3 +6,9 @@
     display: flex;
     vertical-align: middle;
 }
+.center {
+  /*
+    width: 50%;
+    margin: 0 auto;
+    */
+}

@@ -1,1 +1,12 @@
   <h1 style="text-align: center;" onclick="location.href='homepage.html';">Chocolate Disco Chicago Tourism</h1> 
+
+
+  The Field Museum of Natural History, also known as The Field Museum, is a natural history museum in 
+            Chicago, Illinois, and is one of the largest such museums in the world.
+
+            Water Tower Place is a large urban, mixed-use development comprising a 758,000 sq ft shopping mall, hotel, theater, 
+            and condominiums in a 74-story skyscraper in Chicago, Illinois, United States. 
+            The mall is located at 835 North Michigan Avenue, along the Magnificent Mile.
+
+  Water Tower complies with all state and local mandates related to COVID-19, including but not limited to reduced capacity, dining restrictions, and face coverings (where applicable).<br>
+             These restrictions are the most up-to-date and take precedence over the industry-specific guidelines if there are points of contradiction

@@ -1,64 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Chocolate Disco Chicago Tourism</title>
-    <link rel="stylesheet" href=
-    "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
-    <link rel="stylesheet" href="homepage.css">
-</head>
-<body style="background-image:url('pictures/background5.jpg');background-position: 0px 0px; background-repeat: no-repeat; background-size: 100% 100%;"> 
+    <head>
+        <title>Chocolate Disco Chicago Tourism</title>
+        <link rel="stylesheet" href=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+        <link rel="stylesheet" href="homepage.css">
+    </head>
+    <body style="background-image:url('pictures/background5.jpg');background-position: 0px 0px; background-repeat: no-repeat; background-size: 100% 100%;"> 
 
-    <div id="banner">
-        <img src="pictures/bannerCopy2.jpg" alt="mainpage banner" style = "width: 100%;" title = "Chocolate Disco Chicago Tourism Homepage" class = "center" onclick="location.href='homepage.html';">
-    </div>
-    
-    <br>
-    <div class= "button-center">
-        <button type ="button" id="Attractions" class="btn" onclick="location.href='attractions.html';" style="width: 160px; height: 60px; font-size: 20px; background-color: rgb(34, 74, 133); color: white;" onmouseenter = "this.style.backgroundColor = 'rgb(111, 148, 204)'" onmouseleave="style.backgroundColor = 'rgb(34, 74, 133)'"> Attractions </button>
-        <button type ="button" id="Transportation" class="btn" onclick="location.href='transportation.html';" style="width: 160px; height: 60px; font-size: 20px; background-color: rgb(34, 74, 133); color: white;" onmouseenter = "this.style.backgroundColor = 'rgb(111, 148, 204)'" onmouseleave="style.backgroundColor = 'rgb(34, 74, 133)'"> Transportation </button>
-        <button type ="button" id="Parking" class="btn" onclick="location.href='parking.html';" style="width: 160px; height: 60px; font-size: 20px; background-color: rgb(34, 74, 133); color: white;" onmouseenter = "this.style.backgroundColor = 'rgb(111, 148, 204)'" onmouseleave="style.backgroundColor = 'rgb(34, 74, 133)'"> Parking </button>
-    </div>
-    <br>
-    <h2 style="text-align: center;">Chicago Transit Authority</h2>   
-    <div style = "padding-left: 70px; padding-right: 70px; padding-bottom: 50px;">
-        <h4>About:</h4> 
-        <p style="padding-bottom: 5px;">The Chicago Transit Authority is a mass transit system in Chicago and it's surrounding suburbs.
-        The CTA runs 24 hours a day, and has around 1800 busses and 1450 train cars.</p>
+        <div id="banner">
+            <img src="pictures/bannerCopy2.jpg" alt="mainpage banner" style = "width: 100%;" title = "Chocolate Disco Chicago Tourism Homepage" class = "center" onclick="location.href='homepage.html';">
+        </div>
         
-        <h4>Costs:</h4>
-        <p> Single Ride: <br>
-            Train: $2.50 <br>
-            Bus: $2.25 <br><br>
-            Daily Passes (Both Bus and Train):<br>
-            1 Day Pass: $5<br>
-            3 Day Pass: $15<br>
-            7 Day Pass: $20<br>
+        <br>
+        <div class= "button-center">
+            <button type ="button" id="Attractions" class="btn" onclick="location.href='attractions.html';" style="width: 160px; height: 60px; font-size: 20px; background-color: rgb(34, 74, 133); color: white;" onmouseenter = "this.style.backgroundColor = 'rgb(111, 148, 204)'" onmouseleave="style.backgroundColor = 'rgb(34, 74, 133)'"> Attractions </button>
+            <button type ="button" id="Transportation" class="btn" onclick="location.href='transportation.html';" style="width: 160px; height: 60px; font-size: 20px; background-color: rgb(34, 74, 133); color: white;" onmouseenter = "this.style.backgroundColor = 'rgb(111, 148, 204)'" onmouseleave="style.backgroundColor = 'rgb(34, 74, 133)'"> Transportation </button>
+            <button type ="button" id="Parking" class="btn" onclick="location.href='parking.html';" style="width: 160px; height: 60px; font-size: 20px; background-color: rgb(34, 74, 133); color: white;" onmouseenter = "this.style.backgroundColor = 'rgb(111, 148, 204)'" onmouseleave="style.backgroundColor = 'rgb(34, 74, 133)'"> Parking </button>
+        </div>
+        <br>
+        <h2 style="text-align: center;">Chicago Transit Authority</h2>   
+        <div style = "padding-left: 70px; padding-right: 70px; padding-bottom: 50px;">
+            <h4>About:</h4> 
+            <p style="padding-bottom: 5px;">The Chicago Transit Authority is a mass transit system in Chicago and it's surrounding suburbs.
+            The CTA runs 24 hours a day, and has around 1800 busses and 1450 train cars.</p>
+            
+            <h4>Costs:</h4>
+            <table style="width: 65%;">
+                <tr>
+                    <th> </th>
+                    <th>Single Ride</th>
+                    <th>1 Day Pass</th>
+                    <th>3 Day Pass</th>
+                    <th>7 Day Pass</th>
+                </tr>
+                <tr class = "spaceUnder">
+                    <td>Train</td>
+                    <td>$2.50</td>
+                    <td>$5</td>
+                    <td>$15</td>
+                    <td>$20</td>
+                </tr>
+                <tr class = "spaceUnder">
+                    <td>Bus</td>
+                    <td>$2.25</td>
+                    <td>$5</td>
+                    <td>$15</td>
+                    <td>$20</td>
+                </tr>
+            </table>
             <br>
-           </p>
-        <h4>Covid Guidelines:</h4>
-        <p style="padding-bottom: 5px;">All CTA customers are required to wear face masks regardless of vaccination status and must try to maintain social distancing. <br>
-         </p>
-        <br>
-        <h4>How to Ride with CTA:</h4>
-        <ol>
-            <li>Cash: Cash can be used directly on busses or can be used in any Ventra Machines to add value to cards.</li>
-            <li>Ventra Tickets: You can buy disposable paper Single-Ride and 1-Day tickets at vending machines (located in every 'L' station).</li>
-            <li>Ventra Cards: Ventra Cards are used with transit value and passes for regular fares and transfers. Fare you load to your Ventra Card's transit account can be seen and managed at vending machines, online, in the Ventra app, and by phone.</li>
-            <li>Mobile Pay Apps: Ventra readers can accept contactless payments directly from mobile devices, too! You can pay a contactless Pay-As-You-Go (PAYG) fare by touching your phone with Apple Pay, Google Pay and Samsung Pay.</li>
-        </ol>
-        <br>
-        <h4>Locations:</h4>
-        <div><p style="margin-bottom:3px"><a href="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops-Map/zbnc-zirh" 
-            target="_blank" style="font-size:12px;font-weight:bold;text-decoration:none;color:#333333;font-family:arial;">CTA - System Information - List of &#39;L&#39; Stops - Map</a>
-        </p><iframe width="500px" title="CTA - System Information - List of &#39;L&#39; Stops - Map" height="425px" src="https://data.cityofchicago.org/w/zbnc-zirh/3q3f-6823?cur=_20_0kt1dtp&from=root" frameborder="0"scrolling="no">
-            <a href="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops-Map/zbnc-zirh" title="CTA - System Information - List of &#39;L&#39; Stops - Map" target="_blank">CTA - System Information - List of &#39;L&#39; Stops - Map</a>
-        </iframe><p><a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a></p>
-        <p>Link To CTA Website: <a href="https://www.transitchicago.com/" target="_blank">Click Here</a></div></p>
-        
-    
-       
-        
-    </div>
 
-</body>
+            <h4>Covid Guidelines:</h4>
+            <p style="padding-bottom: 5px;">All CTA customers are required to wear face masks regardless of vaccination status and must try to maintain social distancing.</p>
+            
+            <h4>How to Ride with CTA:</h4>
+            <ul>
+                <li>Cash: Cash can be used directly on busses or can be used in any Ventra Machines to add value to cards.</li>
+                <li>Ventra Tickets: You can buy disposable paper Single-Ride and 1-Day tickets at vending machines (located in every 'L' station).</li>
+                <li>Ventra Cards: Ventra Cards are used with transit value and passes for regular fares and transfers. Fare you load to your Ventra Card's transit account can be seen and managed at vending machines, online, in the Ventra app, and by phone.</li>
+                <li>Mobile Pay Apps: Ventra readers can accept contactless payments directly from mobile devices, too! You can pay a contactless Pay-As-You-Go (PAYG) fare by touching your phone with Apple Pay, Google Pay and Samsung Pay.</li>
+            </ul>
+            <br>
+
+            <h4>Locations:</h4>
+            <p style="margin-bottom:3px">
+                <a href="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops-Map/zbnc-zirh" 
+            target="_blank" style="font-size:12px;font-weight:bold;text-decoration:none;color:#333333;font-family:arial;">CTA - System Information - List of &#39;L&#39; Stops - Map</a>
+            </p>
+            
+            <div class="gmap">
+                <iframe width="500px" title="CTA - System Information - List of &#39;L&#39; Stops - Map" height="425px" src="https://data.cityofchicago.org/w/zbnc-zirh/3q3f-6823?cur=_20_0kt1dtp&from=root" frameborder="0"scrolling="no">
+                    <a href="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops-Map/zbnc-zirh" title="CTA - System Information - List of &#39;L&#39; Stops - Map" target="_blank">CTA - System Information - List of &#39;L&#39; Stops - Map</a>
+                </iframe>
+                
+                <p style="padding-left: 20px; padding-top: 150px; font-size: 20px;">
+                    <br>
+                    <br> 
+                    <a href="https://www.transitchicago.com/" target="_blank">CTA Main Website</a>
+                </p>
+            </div>
+        </div>
+
+    </body>
 </html>
